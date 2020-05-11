@@ -1,0 +1,37 @@
+C:\Users\MTXT Asus\source\repos\ollylll97lll\Application_Development001\ApplicationDevelopement001\bin\Debug\ApplicationDevelopement001.exe.config
+C:\Users\MTXT Asus\source\repos\ollylll97lll\Application_Development001\ApplicationDevelopement001\bin\Debug\ApplicationDevelopement001.exe
+C:\Users\MTXT Asus\source\repos\ollylll97lll\Application_Development001\ApplicationDevelopement001\bin\Debug\ApplicationDevelopement001.pdb
+C:\Users\MTXT Asus\source\repos\ollylll97lll\Application_Development001\ApplicationDevelopement001\obj\Debug\ApplicationDevelopement001.LoginUI.resources
+C:\Users\MTXT Asus\source\repos\ollylll97lll\Application_Development001\ApplicationDevelopement001\obj\Debug\ApplicationDevelopement001.Properties.Resources.resources
+C:\Users\MTXT Asus\source\repos\ollylll97lll\Application_Development001\ApplicationDevelopement001\obj\Debug\ApplicationDevelopement001.csproj.GenerateResource.cache
+C:\Users\MTXT Asus\source\repos\ollylll97lll\Application_Development001\ApplicationDevelopement001\obj\Debug\ApplicationDevelopement001.exe
+C:\Users\MTXT Asus\source\repos\ollylll97lll\Application_Development001\ApplicationDevelopement001\obj\Debug\ApplicationDevelopement001.pdb
+C:\Users\MTXT Asus\source\repos\ollylll97lll\Application_Development001\ApplicationDevelopement001\obj\Debug\ApplicationDevelopement001.csproj.CoreCompileInputs.cache
+C:\Users\MTXT Asus\source\repos\ollylll97lll\Application_Development001\ApplicationDevelopement001\obj\Debug\ApplicationDevelopement001.LoginPanel.resources
+C:\Users\MTXT Asus\Desktop\Application Development\Application_Development001\ApplicationDevelopement001\bin\Debug\ApplicationDevelopement001.exe.config
+C:\Users\MTXT Asus\Desktop\Application Development\Application_Development001\ApplicationDevelopement001\bin\Debug\ApplicationDevelopement001.exe
+C:\Users\MTXT Asus\Desktop\Application Development\Application_Development001\ApplicationDevelopement001\bin\Debug\ApplicationDevelopement001.pdb
+C:\Users\MTXT Asus\Desktop\Application Development\Application_Development001\ApplicationDevelopement001\obj\Debug\ApplicationDevelopement001.csprojAssemblyReference.cache
+C:\Users\MTXT Asus\Desktop\Application Development\Application_Development001\ApplicationDevelopement001\obj\Debug\ApplicationDevelopement001.LoginUI.resources
+C:\Users\MTXT Asus\Desktop\Application Development\Application_Development001\ApplicationDevelopement001\obj\Debug\ApplicationDevelopement001.LoginPanel.resources
+C:\Users\MTXT Asus\Desktop\Application Development\Application_Development001\ApplicationDevelopement001\obj\Debug\ApplicationDevelopement001.Properties.Resources.resources
+C:\Users\MTXT Asus\Desktop\Application Development\Application_Development001\ApplicationDevelopement001\obj\Debug\ApplicationDevelopement001.csproj.GenerateResource.cache
+C:\Users\MTXT Asus\Desktop\Application Development\Application_Development001\ApplicationDevelopement001\obj\Debug\ApplicationDevelopement001.csproj.CoreCompileInputs.cache
+C:\Users\MTXT Asus\Desktop\Application Development\Application_Development001\ApplicationDevelopement001\obj\Debug\ApplicationDevelopement001.exe
+C:\Users\MTXT Asus\Desktop\Application Development\Application_Development001\ApplicationDevelopement001\obj\Debug\ApplicationDevelopement001.pdb
+C:\Users\MTXT Asus\Desktop\ApplicationDevelopement001\bin\Debug\ApplicationDevelopement001.exe
+C:\Users\MTXT Asus\Desktop\ApplicationDevelopement001\bin\Debug\ApplicationDevelopement001.exe.config
+C:\Users\MTXT Asus\Desktop\ApplicationDevelopement001\obj\Debug\ApplicationDevelopement001.Administrator.resources
+C:\Users\MTXT Asus\Desktop\ApplicationDevelopement001\obj\Debug\ApplicationDevelopement001.LoginUI.resources
+C:\Users\MTXT Asus\Desktop\ApplicationDevelopement001\obj\Debug\ApplicationDevelopement001.LoginPanel.resources
+C:\Users\MTXT Asus\Desktop\ApplicationDevelopement001\obj\Debug\ApplicationDevelopement001.Properties.Resources.resources
+C:\Users\MTXT Asus\Desktop\ApplicationDevelopement001\obj\Debug\ApplicationDevelopement001.Staff.resources
+C:\Users\MTXT Asus\Desktop\ApplicationDevelopement001\obj\Debug\ApplicationDevelopement001.TopCoursCatPopup.resources
+C:\Users\MTXT Asus\Desktop\ApplicationDevelopement001\obj\Debug\ApplicationDevelopement001.TraineePopup.resources
+C:\Users\MTXT Asus\Desktop\ApplicationDevelopement001\obj\Debug\ApplicationDevelopement001.TrainerPopup.resources
+C:\Users\MTXT Asus\Desktop\ApplicationDevelopement001\obj\Debug\ApplicationDevelopement001.csproj.GenerateResource.cache
+C:\Users\MTXT Asus\Desktop\ApplicationDevelopement001\obj\Debug\ApplicationDevelopement001.csproj.CoreCompileInputs.cache
+C:\Users\MTXT Asus\Desktop\ApplicationDevelopement001\obj\Debug\ApplicationDevelopement001.exe
+C:\Users\MTXT Asus\Desktop\ApplicationDevelopement001\obj\Debug\ApplicationDevelopement001.pdb
+C:\Users\MTXT Asus\Desktop\ApplicationDevelopement001\bin\Debug\ApplicationDevelopement001.pdb
+C:\Users\MTXT Asus\Desktop\ApplicationDevelopement001\obj\Debug\ApplicationDevelopement001.csprojAssemblyReference.cache
