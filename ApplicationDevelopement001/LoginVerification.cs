@@ -12,7 +12,15 @@ namespace ApplicationDevelopement001
     public class LoginVerification
     {
         protected string Username, Password;
-        protected string ConnectionString = "Data Source=UR-DETDY;Initial Catalog=ApplicationDevAssignment;Integrated Security=True";
+        protected string ConnectionString = "Data Source=UR-DETDY;Initial Catalog = AppDev; Integrated Security = True";
+
+        //constructors
+        internal LoginVerification() { }
+        internal LoginVerification(string u, string p)
+        {
+            this.Username = u;
+            this.Password = p;
+        }
 
         //Check Account
         public bool AccountVerify(string UN, string PW, string role)

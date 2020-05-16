@@ -28,84 +28,85 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.button3 = new System.Windows.Forms.Button();
+            this.AccGridView = new System.Windows.Forms.DataGridView();
+            this.Add_BT = new System.Windows.Forms.Button();
+            this.Delete_BT = new System.Windows.Forms.Button();
+            this.Role_Cb = new System.Windows.Forms.ComboBox();
+            this.User_TB = new System.Windows.Forms.TextBox();
+            this.Pass_TB = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.ID_TB = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.Cancel_BT = new System.Windows.Forms.Button();
+            this.Up_BT = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.AccGridView)).BeginInit();
             this.SuspendLayout();
             // 
-            // dataGridView1
+            // AccGridView
             // 
-            this.dataGridView1.AllowUserToAddRows = false;
-            this.dataGridView1.AllowUserToDeleteRows = false;
-            this.dataGridView1.AllowUserToOrderColumns = true;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(11, 152);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.ReadOnly = true;
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(368, 232);
-            this.dataGridView1.TabIndex = 0;
+            this.AccGridView.AllowUserToAddRows = false;
+            this.AccGridView.AllowUserToDeleteRows = false;
+            this.AccGridView.AllowUserToOrderColumns = true;
+            this.AccGridView.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.AccGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.AccGridView.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.AccGridView.Location = new System.Drawing.Point(0, 224);
+            this.AccGridView.MultiSelect = false;
+            this.AccGridView.Name = "AccGridView";
+            this.AccGridView.ReadOnly = true;
+            this.AccGridView.RowHeadersWidth = 51;
+            this.AccGridView.RowTemplate.Height = 24;
+            this.AccGridView.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.AccGridView.Size = new System.Drawing.Size(406, 232);
+            this.AccGridView.TabIndex = 22;
+            this.AccGridView.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.AccGridView_CellDoubleClick);
             // 
-            // button1
+            // Add_BT
             // 
-            this.button1.Location = new System.Drawing.Point(46, 112);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(107, 34);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "add";
-            this.button1.UseVisualStyleBackColor = true;
+            this.Add_BT.Location = new System.Drawing.Point(46, 172);
+            this.Add_BT.Name = "Add_BT";
+            this.Add_BT.Size = new System.Drawing.Size(107, 34);
+            this.Add_BT.TabIndex = 1;
+            this.Add_BT.Text = "add";
+            this.Add_BT.UseVisualStyleBackColor = true;
+            this.Add_BT.Click += new System.EventHandler(this.Add_BT_Click);
             // 
-            // button2
+            // Delete_BT
             // 
-            this.button2.Location = new System.Drawing.Point(272, 112);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(107, 34);
-            this.button2.TabIndex = 2;
-            this.button2.Text = "delete";
-            this.button2.UseVisualStyleBackColor = true;
+            this.Delete_BT.Location = new System.Drawing.Point(272, 172);
+            this.Delete_BT.Name = "Delete_BT";
+            this.Delete_BT.Size = new System.Drawing.Size(107, 34);
+            this.Delete_BT.TabIndex = 2;
+            this.Delete_BT.Text = "delete";
+            this.Delete_BT.UseVisualStyleBackColor = true;
+            this.Delete_BT.Click += new System.EventHandler(this.Delete_BT_Click);
             // 
-            // comboBox1
+            // Role_Cb
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
-            "Training Staff",
-            "Trainer"});
-            this.comboBox1.Location = new System.Drawing.Point(159, 26);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(182, 24);
-            this.comboBox1.TabIndex = 3;
+            this.Role_Cb.FormattingEnabled = true;
+            this.Role_Cb.Items.AddRange(new object[] {
+            "STAFF",
+            "TRAINER"});
+            this.Role_Cb.Location = new System.Drawing.Point(159, 26);
+            this.Role_Cb.Name = "Role_Cb";
+            this.Role_Cb.Size = new System.Drawing.Size(182, 24);
+            this.Role_Cb.TabIndex = 3;
             // 
-            // textBox1
+            // User_TB
             // 
-            this.textBox1.Location = new System.Drawing.Point(159, 56);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(220, 22);
-            this.textBox1.TabIndex = 4;
+            this.User_TB.Location = new System.Drawing.Point(159, 56);
+            this.User_TB.Name = "User_TB";
+            this.User_TB.Size = new System.Drawing.Size(220, 22);
+            this.User_TB.TabIndex = 4;
             // 
-            // textBox2
+            // Pass_TB
             // 
-            this.textBox2.Location = new System.Drawing.Point(159, 84);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(220, 22);
-            this.textBox2.TabIndex = 5;
-            // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(159, 112);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(107, 34);
-            this.button3.TabIndex = 6;
-            this.button3.Text = "update";
-            this.button3.UseVisualStyleBackColor = true;
+            this.Pass_TB.Location = new System.Drawing.Point(159, 84);
+            this.Pass_TB.Name = "Pass_TB";
+            this.Pass_TB.Size = new System.Drawing.Size(220, 22);
+            this.Pass_TB.TabIndex = 5;
             // 
             // label1
             // 
@@ -134,24 +135,63 @@
             this.label3.TabIndex = 10;
             this.label3.Text = "Password";
             // 
-            // Administrator_Form
+            // ID_TB
+            // 
+            this.ID_TB.Location = new System.Drawing.Point(159, 112);
+            this.ID_TB.Name = "ID_TB";
+            this.ID_TB.Size = new System.Drawing.Size(220, 22);
+            this.ID_TB.TabIndex = 5;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(43, 112);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(21, 17);
+            this.label4.TabIndex = 10;
+            this.label4.Text = "ID";
+            // 
+            // Cancel_BT
+            // 
+            this.Cancel_BT.Location = new System.Drawing.Point(159, 172);
+            this.Cancel_BT.Name = "Cancel_BT";
+            this.Cancel_BT.Size = new System.Drawing.Size(107, 34);
+            this.Cancel_BT.TabIndex = 1;
+            this.Cancel_BT.Text = "Cancel";
+            this.Cancel_BT.UseVisualStyleBackColor = true;
+            this.Cancel_BT.Click += new System.EventHandler(this.Cancel_BT_Click);
+            // 
+            // Up_BT
+            // 
+            this.Up_BT.Location = new System.Drawing.Point(46, 172);
+            this.Up_BT.Name = "Up_BT";
+            this.Up_BT.Size = new System.Drawing.Size(107, 34);
+            this.Up_BT.TabIndex = 1;
+            this.Up_BT.Text = "Update";
+            this.Up_BT.UseVisualStyleBackColor = true;
+            this.Up_BT.Click += new System.EventHandler(this.Up_BT_Click);
+            // 
+            // Administrator
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(406, 397);
+            this.ClientSize = new System.Drawing.Size(406, 456);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.dataGridView1);
-            this.Name = "Administrator_Form";
+            this.Controls.Add(this.ID_TB);
+            this.Controls.Add(this.Pass_TB);
+            this.Controls.Add(this.User_TB);
+            this.Controls.Add(this.Role_Cb);
+            this.Controls.Add(this.Delete_BT);
+            this.Controls.Add(this.Cancel_BT);
+            this.Controls.Add(this.Up_BT);
+            this.Controls.Add(this.Add_BT);
+            this.Controls.Add(this.AccGridView);
+            this.Name = "Administrator";
             this.Text = "Administrator_Form";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.AccGridView)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -159,15 +199,18 @@
 
         #endregion
 
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.DataGridView AccGridView;
+        private System.Windows.Forms.Button Add_BT;
+        private System.Windows.Forms.Button Delete_BT;
+        private System.Windows.Forms.ComboBox Role_Cb;
+        private System.Windows.Forms.TextBox User_TB;
+        private System.Windows.Forms.TextBox Pass_TB;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox ID_TB;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button Cancel_BT;
+        private System.Windows.Forms.Button Up_BT;
     }
 }

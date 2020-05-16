@@ -27,11 +27,10 @@ C:\Users\MTXT Asus\Desktop\ApplicationDevelopement001\obj\Debug\ApplicationDevel
 C:\Users\MTXT Asus\Desktop\ApplicationDevelopement001\obj\Debug\ApplicationDevelopement001.Properties.Resources.resources
 C:\Users\MTXT Asus\Desktop\ApplicationDevelopement001\obj\Debug\ApplicationDevelopement001.Staff.resources
 C:\Users\MTXT Asus\Desktop\ApplicationDevelopement001\obj\Debug\ApplicationDevelopement001.TopCoursCatPopup.resources
-C:\Users\MTXT Asus\Desktop\ApplicationDevelopement001\obj\Debug\ApplicationDevelopement001.TraineePopup.resources
-C:\Users\MTXT Asus\Desktop\ApplicationDevelopement001\obj\Debug\ApplicationDevelopement001.TrainerPopup.resources
 C:\Users\MTXT Asus\Desktop\ApplicationDevelopement001\obj\Debug\ApplicationDevelopement001.csproj.GenerateResource.cache
 C:\Users\MTXT Asus\Desktop\ApplicationDevelopement001\obj\Debug\ApplicationDevelopement001.csproj.CoreCompileInputs.cache
 C:\Users\MTXT Asus\Desktop\ApplicationDevelopement001\obj\Debug\ApplicationDevelopement001.exe
 C:\Users\MTXT Asus\Desktop\ApplicationDevelopement001\obj\Debug\ApplicationDevelopement001.pdb
 C:\Users\MTXT Asus\Desktop\ApplicationDevelopement001\bin\Debug\ApplicationDevelopement001.pdb
+C:\Users\MTXT Asus\Desktop\ApplicationDevelopement001\obj\Debug\ApplicationDevelopement001.TR_PopupForm.resources
 C:\Users\MTXT Asus\Desktop\ApplicationDevelopement001\obj\Debug\ApplicationDevelopement001.csprojAssemblyReference.cache

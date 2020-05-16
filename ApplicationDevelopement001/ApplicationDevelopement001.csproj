@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdminCl.cs" />
     <Compile Include="LoginVerification.cs" />
     <Compile Include="Administrator.cs">
       <SubType>Form</SubType>
@@ -73,29 +74,26 @@
     <Compile Include="Staff.Designer.cs">
       <DependentUpon>Staff.cs</DependentUpon>
     </Compile>
+    <Compile Include="StaffClass.cs" />
+    <Compile Include="TCC_PopupCl.cs" />
     <Compile Include="TopCoursCatPopup.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="TopCoursCatPopup.Designer.cs">
       <DependentUpon>TopCoursCatPopup.cs</DependentUpon>
     </Compile>
-    <Compile Include="TraineePopup.cs">
+    <Compile Include="TRCl.cs" />
+    <Compile Include="TR_PopupForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="TraineePopup.Designer.cs">
-      <DependentUpon>TraineePopup.cs</DependentUpon>
+    <Compile Include="TR_PopupForm.Designer.cs">
+      <DependentUpon>TR_PopupForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Trainer.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Trainer.Designer.cs">
       <DependentUpon>Trainer.cs</DependentUpon>
-    </Compile>
-    <Compile Include="TrainerPopup.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="TrainerPopup.Designer.cs">
-      <DependentUpon>TrainerPopup.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Administrator.resx">
       <DependentUpon>Administrator.cs</DependentUpon>
@@ -121,11 +119,11 @@
     <EmbeddedResource Include="TopCoursCatPopup.resx">
       <DependentUpon>TopCoursCatPopup.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="TraineePopup.resx">
-      <DependentUpon>TraineePopup.cs</DependentUpon>
+    <EmbeddedResource Include="Trainer.resx">
+      <DependentUpon>Trainer.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="TrainerPopup.resx">
-      <DependentUpon>TrainerPopup.cs</DependentUpon>
+    <EmbeddedResource Include="TR_PopupForm.resx">
+      <DependentUpon>TR_PopupForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
